@@ -1,0 +1,5 @@
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Core\bin\Debug\RepositoryPattern.Core.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Core\bin\Debug\RepositoryPattern.Core.pdb
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Core\obj\Debug\RepositoryPattern.Core.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Core\obj\Debug\RepositoryPattern.Core.pdb
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Core\obj\Debug\RepositoryPattern.Core.csprojResolveAssemblyReference.cache

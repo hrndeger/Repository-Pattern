@@ -1,0 +1,49 @@
+﻿@using RepositoryPattern.Core.Extension
+@model RepositoryPattern.Models.CategoryViewModel
+
+@{
+    ViewBag.Title = "Category List";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h2> Category List</h2>
+
+@using (Html.BeginForm("Index", "Category"))
+{
+    @Html.AntiForgeryToken()
+    <div>
+
+        @Html.ValidationSummary(true)
+
+        <div>
+            <table>
+
+                <tr>
+                    <th>@Html.DisplayFor(model => model.Title)</th>
+                </tr>
+            </table>
+
+        </div>
+
+        @if (!Model.IsNullOrDefault() && !Model.Categories.IsNullOrDefault())
+        {
+
+            foreach (var item in Model.Categories)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => item.Title)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                        @Html.ActionLink("Delete", "Delete", "Category", new { id = item.Id }, new { id = "delete" })
+                    </td>
+                </tr>
+            }        
+        }
+
+    </div>
+}
+
+
+

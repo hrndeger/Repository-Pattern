@@ -1,0 +1,16 @@
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\RepositoryPattern.Data.dll.config
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\RepositoryPattern.Data.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\RepositoryPattern.Data.pdb
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\EntityFramework.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\RepositoryPattern.Core.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\RepositoryPattern.Core.pdb
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\EntityFramework.xml
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\obj\Debug\RepositoryPattern.Data.csprojResolveAssemblyReference.cache
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\obj\Debug\RepositoryPattern.Data.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\obj\Debug\RepositoryPattern.Data.pdb
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\System.Data.SqlServerCe.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\EntityFramework.SqlServerCompact.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\System.Data.SqlServerCe.Entity.dll
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\GenericRepositoryPattern\Generic Repository Pattern\RepositoryPattern\RepositoryPattern.Data\bin\Debug\EntityFramework.SqlServerCompact.xml

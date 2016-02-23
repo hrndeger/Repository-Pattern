@@ -1,0 +1,62 @@
+﻿@model RepositoryPattern.Models.ProductEditViewModel
+@{
+    var actionName = ViewContext.Controller.ValueProvider.GetValue("action").RawValue.ToString();
+}
+@{
+    ViewBag.Title = "title";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<div id="resultMessage">
+
+</div>
+
+@using (Ajax.BeginForm(actionName, "Product", FormMethod.Post,
+    new AjaxOptions
+    {
+        OnSuccess = "success"
+    }))
+{
+    @Html.AntiForgeryToken()
+    <div>
+
+        @Html.ValidationSummary(true)
+
+        <input type="hidden" data-bind="value: Id" />
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => Model.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(model => Model.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(model => Model.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(model => Model.CategoryName)
+            </td>
+            <td>
+                <p>
+                    <input type="submit" value="Save" />
+                </p>
+            </td>
+        </tr>
+    </div>
+}
+
+@section scripts
+{
+    <script type="text/javascript">
+        function success(result) {
+            if (result.isSuccess == true) {
+                $("form")[0].reset();
+            }
+
+            $("#resultMessage").html(result.Message);
+        }
+    </script>
+}

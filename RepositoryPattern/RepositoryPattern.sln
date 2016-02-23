@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Test", "RepositoryPattern.Test\RepositoryPattern.Test.csproj", "{17706E8D-9770-41A1-B453-7447AF5601B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Data", "RepositoryPattern.Data\RepositoryPattern.Data.csproj", "{C2CC278E-E9ED-4600-871C-C2B6FFAA2A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern.Core", "RepositoryPattern.Core\RepositoryPattern.Core.csproj", "{653FC071-0D86-407D-A285-3EA1EACA14DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{4C703BE5-E2F5-4121-A3E5-348CF80B09A8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://harundeger.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RepositoryPattern.Test\\RepositoryPattern.Test.csproj
+		SccProjectName1 = RepositoryPattern.Test
+		SccLocalPath1 = RepositoryPattern.Test
+		SccProjectUniqueName2 = RepositoryPattern.Data\\RepositoryPattern.Data.csproj
+		SccProjectName2 = RepositoryPattern.Data
+		SccLocalPath2 = RepositoryPattern.Data
+		SccProjectUniqueName3 = RepositoryPattern.Core\\RepositoryPattern.Core.csproj
+		SccProjectName3 = RepositoryPattern.Core
+		SccLocalPath3 = RepositoryPattern.Core
+		SccProjectUniqueName4 = RepositoryPattern\\RepositoryPattern.csproj
+		SccProjectName4 = RepositoryPattern
+		SccLocalPath4 = RepositoryPattern
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17706E8D-9770-41A1-B453-7447AF5601B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17706E8D-9770-41A1-B453-7447AF5601B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17706E8D-9770-41A1-B453-7447AF5601B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17706E8D-9770-41A1-B453-7447AF5601B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CC278E-E9ED-4600-871C-C2B6FFAA2A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CC278E-E9ED-4600-871C-C2B6FFAA2A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CC278E-E9ED-4600-871C-C2B6FFAA2A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CC278E-E9ED-4600-871C-C2B6FFAA2A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653FC071-0D86-407D-A285-3EA1EACA14DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653FC071-0D86-407D-A285-3EA1EACA14DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653FC071-0D86-407D-A285-3EA1EACA14DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653FC071-0D86-407D-A285-3EA1EACA14DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C703BE5-E2F5-4121-A3E5-348CF80B09A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C703BE5-E2F5-4121-A3E5-348CF80B09A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C703BE5-E2F5-4121-A3E5-348CF80B09A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C703BE5-E2F5-4121-A3E5-348CF80B09A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

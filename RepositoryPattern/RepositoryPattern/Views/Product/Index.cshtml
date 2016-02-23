@@ -1,0 +1,63 @@
+﻿@model RepositoryPattern.Models.ProductViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("Index", "Product"))
+{
+    @Html.AntiForgeryToken()
+    <div>
+
+        @Html.ValidationSummary(true)
+
+        @foreach (var item in Model.ProductDtos)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.UnitPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.CategoryName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                    @Html.ActionLink("Delete","Delete","Product",new { id = item.Id },new {id ="delete"})
+
+
+                </td>
+            </tr>
+        }
+
+    </div>
+}
+
+<script type="text/javascript">
+    $(function () {
+        $('#delete').click(function () {
+            if (confirm('Delete?')) {
+                $.ajax({
+                    url: '/Category/Delete',
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    data: JSON.stringify({ id: id }),
+                    async: true,
+                    processData: false,
+                    cache: false,
+                    success: function (data) {
+                        alert(data);
+                    }
+                }
+    );
+            }
+            return false;
+        });
+    });
+</script>

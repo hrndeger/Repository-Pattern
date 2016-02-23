@@ -1,0 +1,59 @@
+﻿@model RepositoryPattern.Models.CategoryDeleteViewModel
+@{
+    var actionName = ViewContext.Controller.ValueProvider.GetValue("action").RawValue.ToString();
+}
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Delete</h2>
+
+<div id="resultMessage">
+    
+</div>
+
+@using (Ajax.BeginForm(actionName,"Category",FormMethod.Post,
+    new AjaxOptions
+    {
+        OnSuccess = "success",
+        LoadingElementId = "loading"
+    }))
+{
+    @Html.AntiForgeryToken()
+    <div>
+
+        @Html.ValidationSummary(true)
+
+        <input type="hidden" data-bind="value: Id"/>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => Model.Title)
+            </td>
+
+            <td>
+                <p>
+                    <input type="submit" value="Delete"/>
+                </p>
+            </td>
+        </tr>
+    </div>
+    <div id="loading" style="display: none">
+        Kaydediliyor...
+    </div>
+}
+
+@section scripts
+{
+    <script type="text/javascript">
+        function success(result) {
+            if (result.isSuccess == true) {
+                $("form")[0].reset();
+            }
+
+            $("#resultMessage").html(result.Message);
+        }
+    </script>
+}
